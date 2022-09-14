@@ -1,10 +1,5 @@
 {
-  "extends": [
-    "airbnb",
-    "airbnb/hooks",
-    "plugin:import/recommended",
-    "prettier"
-  ],
+  "extends": ["airbnb", "airbnb/hooks", "plugin:import/recommended", "prettier"],
   "plugins": ["react-hooks", "prettier", "prefer-arrow"],
   "parserOptions": {
     "ecmaVersion": "latest"
@@ -19,10 +14,7 @@
       }
     ],
     "prettier/prettier": "error",
-    "react/jsx-filename-extension": [
-      2,
-      { "extensions": [".js", ".jsx", ".svg", "png"] }
-    ],
+    "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".svg", "png"] }],
     "react/function-component-definition": [
       2,
       {
