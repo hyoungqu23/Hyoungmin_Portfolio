@@ -3,7 +3,7 @@ import { ROUTES } from '../../../constants/routes';
 
 const Header = () => {
   return (
-    <header className="flex justify-between font-bold text-base md:text-xl lg:text-2xl px-2 md:px-5">
+    <header className="flex h-[7.5vh] justify-between items-center font-bold text-base md:text-xl lg:text-2xl px-2 md:px-5">
       <Link href={ROUTES.HOME}>
         <a>이형민</a>
       </Link>
