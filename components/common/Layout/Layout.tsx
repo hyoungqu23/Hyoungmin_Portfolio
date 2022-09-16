@@ -15,7 +15,7 @@ const Layout = (props: Props) => {
         <link rel="icon" href="/favicon.svg" />
       </Head>
       <Header />
-      <main className="py-2 w-4/5 m-auto">{props.children}</main>
+      <main className="container h-[80vh] py-2 w-4/5 m-auto">{props.children}</main>
       <Footer />
     </div>
   );
