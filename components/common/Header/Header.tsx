@@ -16,7 +16,7 @@ const Header = () => {
             <Link href={ROUTES.PROJECTS}>프로젝트</Link>
           </li>
           <li>
-            <Link href={ROUTES.EXPERIENCE}>경험</Link>
+            <Link href={ROUTES.EXPERIENCE}>경험/교육</Link>
           </li>
           <li>
             <Link href={ROUTES.MORE}>더 알아보기</Link>
