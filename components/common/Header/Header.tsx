@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import { ROUTES } from '../../../constants/routes';
 import { motion } from 'framer-motion';
+import { ROUTES } from 'constants/routes';
 
 const Header = () => {
   return (
@@ -11,9 +11,7 @@ const Header = () => {
         transition={{ duration: 1 }}
         className="text-base font-bold tracking-widest md:text-2xl lg:text-3xl"
       >
-        <Link href={ROUTES.HOME}>
-          <a>이형민</a>
-        </Link>
+        <Link href={ROUTES.HOME}>이형민</Link>
       </motion.div>
       <motion.nav
         initial={{ x: 500, opacity: 0, scale: 0.5 }}

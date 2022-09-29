@@ -1,12 +1,9 @@
 import Head from 'next/head';
-import Header from './../Header/Header';
-import Footer from './../Footer/Footer';
+import Header from 'components/common/Header/Header';
+import Footer from 'components/common/Footer/Footer';
 import { motion } from 'framer-motion';
 import { useRouter } from 'next/router';
-
-type Props = {
-  children: React.ReactNode;
-};
+import { PropsWithChildren } from 'react';
 
 const pageSwitchAnimation = {
   initialState: {
@@ -17,7 +14,7 @@ const pageSwitchAnimation = {
   },
 };
 
-const Layout = (props: Props) => {
+const Layout = (props: PropsWithChildren) => {
   const router = useRouter();
 
   console.log(router);

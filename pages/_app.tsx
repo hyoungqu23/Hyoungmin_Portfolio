@@ -1,7 +1,7 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import { AnimatePresence } from 'framer-motion';
-import Layout from '../components/common/Layout/Layout';
+import Layout from 'components/common/Layout/Layout';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (

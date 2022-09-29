@@ -14,7 +14,7 @@
       }
     ],
     "prettier/prettier": "error",
-    "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".svg", "png"] }],
+    "react/jsx-filename-extension": [2, { "extensions": [".ts", ".tsx", ".svg", "png"] }],
     "react/function-component-definition": [
       2,
       {
