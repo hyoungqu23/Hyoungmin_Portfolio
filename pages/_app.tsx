@@ -1,13 +1,16 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
+import { AnimatePresence } from 'framer-motion';
 import Layout from '../components/common/Layout/Layout';
 
-function MyApp({ Component, pageProps }: AppProps) {
+const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <AnimatePresence mode="wait">
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </AnimatePresence>
   );
-}
+};
 
 export default MyApp;
