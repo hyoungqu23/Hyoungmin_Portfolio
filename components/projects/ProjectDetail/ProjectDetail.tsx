@@ -46,7 +46,7 @@ const ProjectDetail = (props: Props) => {
         {props.descriptions.map((description, index) => (
           <li
             key={description}
-            className={`mb-2 text-md ${index % 2 ? 'text-primary' : 'text-pink-300'}`}
+            className={`mb-1 text-md ${index % 2 ? 'text-primary' : 'text-pink-300'}`}
           >
             {description}
           </li>
