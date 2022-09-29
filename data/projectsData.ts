@@ -23,7 +23,26 @@ interface Projects {
 // },
 export const PROJECTS: Projects[] = [
   {
-    title: '프론트엔드 개발자 이형민입니다',
+    title: '프리온보딩 기업과제',
+    summary: '원티드 프리온보딩 코스에서 수행한 기업 과제입니다.',
+    period: '2022.08.30 - 2022.09.30',
+    type: '팀 프로젝트, 프론트엔드',
+    descriptions: [
+      '빠르고 간결한 개발 경험을 위해 vite를 사용했습니다.',
+      'Best Practice를 만들고자 페어 프로그래밍을 경험했습니다.',
+      '페이지네이션, 무한 스크롤, 로그인 유지 기능 등을 구현하면서 더 나은 방식을 고민했습니다.',
+      'Redux와 Redux Toolkit을 활용해 전역 상태 관리를 하고, Redux-Thunk로 API 호출 데이터를 처리했습니다.',
+      'SWR을 활용해 캐싱을 구현했습니다.',
+      'API 로직을 분리해 모듈화하며, 확장성 있는 코드를 작성했습니다.',
+      '기존 기능의 개선과 확장성을 고려하며 과제를 수행했습니다.',
+    ],
+    pageUrl: '',
+    githubUrl: 'https://github.com/orgs/wanted-pre-onboarding-fe-6th-team2/repositories',
+    notionUrl: '',
+    figmaUrl: '',
+  },
+  {
+    title: '프론트엔드 개발자 이형민',
     summary: 'Next.js를 활용한 포트폴리오 사이트',
     period: '2022.09.15 - 2022.09.20',
     type: '개인 프로젝트',
@@ -39,8 +58,8 @@ export const PROJECTS: Projects[] = [
     notionUrl: 'https://www.notion.so/hyoungmin/Hyoungmin-148ffdf1a5fe480b865ff6a0de802444',
   },
   {
-    title: 'CFD - Community For Developers',
-    summary: '개발자를 위한 커뮤니티, CFD입니다.',
+    title: 'CFD',
+    summary: '개발자를 위한 커뮤니티, CFD(Community for Developers)',
     period: '2022.07.04 - 2022.07.22',
     type: '팀 프로젝트, 프론트엔드',
     descriptions: [

@@ -5,7 +5,7 @@ import { PROJECTS } from 'data/projectsData';
 
 const Projects: NextPage = () => {
   return (
-    <div className="container grid items-start justify-center h-full grid-cols-3 gap-10 mx-auto">
+    <div className="container grid items-start justify-center h-full grid-cols-4 gap-10 mx-auto">
       {PROJECTS.map(project => (
         <div key={project.title}>
           <div className="relative flex flex-col row-span-1 gap-2 p-4 mb-3 text-left border-2 border-pink-400 rounded-xl">
