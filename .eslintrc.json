@@ -7,9 +7,6 @@
     "prettier"
   ],
   "plugins": ["react-hooks", "prettier", "prefer-arrow"],
-  "parserOptions": {
-    "ecmaVersion": "latest"
-  },
   "rules": {
     "prefer-arrow/prefer-arrow-functions": [
       "error",
@@ -43,7 +40,8 @@
     "react/no-array-index-key": "off",
     "react/react-in-jsx-scope": "off",
     "import/no-extraneous-dependencies": "off",
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "@next/next/no-img-element": "off"
   },
   "env": {
     "browser": true,
