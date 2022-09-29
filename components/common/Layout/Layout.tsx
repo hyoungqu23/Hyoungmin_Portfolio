@@ -17,8 +17,6 @@ const pageSwitchAnimation = {
 const Layout = (props: PropsWithChildren) => {
   const router = useRouter();
 
-  console.log(router);
-
   return (
     <motion.div
       key={router.route}

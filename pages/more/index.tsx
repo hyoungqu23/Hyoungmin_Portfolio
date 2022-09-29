@@ -2,8 +2,8 @@ import type { NextPage } from 'next';
 
 const More: NextPage = () => {
   return (
-    <div className="container h-full mx-auto flex flex-col justify-center items-center">
-      <ul className="flex text-primary items-center gap-x-5 lg:gap-x-10">
+    <div className="container flex flex-col items-center justify-center h-full mx-auto">
+      <ul className="flex items-center text-primary gap-x-5 lg:gap-x-10">
         <li>
           <a href="https://github.com/hyoungqu23">
             <img className="h-20 lg:h-32" src="/image/github.svg" alt="깃허브" />

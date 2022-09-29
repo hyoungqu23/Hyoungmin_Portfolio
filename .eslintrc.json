@@ -1,5 +1,11 @@
 {
-  "extends": ["airbnb", "airbnb/hooks", "plugin:import/recommended", "prettier"],
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:@next/next/recommended",
+    "plugin:import/recommended",
+    "prettier"
+  ],
   "plugins": ["react-hooks", "prettier", "prefer-arrow"],
   "parserOptions": {
     "ecmaVersion": "latest"
