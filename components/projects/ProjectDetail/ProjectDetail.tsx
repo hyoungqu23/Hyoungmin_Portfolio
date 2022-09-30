@@ -16,7 +16,7 @@ const urlStyle = {
 const ProjectDetail = (props: Props) => {
   return (
     <div className="row-start-2 row-end-3">
-      <div className="flex gap-2 mb-2">
+      <div className="hidden gap-2 mb-2 lg:flex ">
         <a
           className={`${props.githubUrl ? urlStyle.hasUrl : urlStyle.hasNotUrl}`}
           href={props.githubUrl}
@@ -46,7 +46,9 @@ const ProjectDetail = (props: Props) => {
         {props.descriptions.map((description, index) => (
           <li
             key={description}
-            className={`mb-1 text-md ${index % 2 ? 'text-primary' : 'text-pink-300'}`}
+            className={`mb-1 text-md hidden lg:block ${
+              index % 2 ? 'text-primary' : 'text-pink-300'
+            }`}
           >
             {description}
           </li>

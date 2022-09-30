@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 
 const Experience: NextPage = () => {
   return (
-    <div className="container grid items-center h-full grid-cols-1 grid-rows-1 mx-auto lg:grid-cols-3 justify-evenly">
+    <div className="container grid items-center h-full grid-cols-1 mx-auto lg:grid-cols-3 justify-evenly">
       <div className="text-center transition-colors duration-300 ease-in hover:text-pink-400">
         <h3 className="text-sm">원티드</h3>
         <h2 className="text-xl lg:text-2xl text-bold">프리온보딩 프론트엔드 코스</h2>
