@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import type { NextPage } from 'next';
 import ProjectDetail from 'components/projects/ProjectDetail/ProjectDetail';
 import { PROJECTS } from 'data/projectsData';
