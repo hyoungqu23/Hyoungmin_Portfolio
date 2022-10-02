@@ -8,6 +8,10 @@ Next.js, TypeScript, Tailwind CSS, Framer Motion을 활용한 포트폴리오 �
 
 [포트폴리오 보러가기](https://hyoungmin-portfolio.vercel.app/)
 
+## 기획
+
+[기획서 보러가기](https://hyoungmin.notion.site/7a6fe0dff3ea49e8ae0fdcf8923bb7d9)
+
 ## 기간
 
 2022.09.15 - 2022.09.20
