@@ -12,6 +12,8 @@ Next.js, TypeScript, Tailwind CSS, Framer Motion을 활용한 포트폴리오 �
 
 [기획서 보러가기](https://hyoungmin.notion.site/7a6fe0dff3ea49e8ae0fdcf8923bb7d9)
 
+[Figma](https://www.figma.com/file/ckqZTsvuqp94wif2lsv50A/Portfolio?node-id=125%3A471)
+
 ## 기간
 
 2022.09.15 - 2022.09.20
