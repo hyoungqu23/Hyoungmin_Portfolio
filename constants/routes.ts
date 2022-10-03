@@ -7,9 +7,9 @@ interface Routes {
 }
 
 export const ROUTES: Routes = {
-  HOME: '/',
-  ABOUT: '/about',
-  PROJECTS: '/projects',
-  EXPERIENCE: '/experience',
-  MORE: '/more',
+  HOME: '#home',
+  ABOUT: '#about',
+  PROJECTS: '#projects',
+  EXPERIENCE: '#experience',
+  MORE: '#more',
 };
