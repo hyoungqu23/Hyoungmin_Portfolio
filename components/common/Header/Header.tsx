@@ -4,7 +4,7 @@ import { ROUTES } from 'constants/routes';
 
 const Header = () => {
   return (
-    <header className="sticky top-0 flex h-[10vh] w-4/5 mx-auto justify-between items-center">
+    <header className="z-10 sticky top-0 flex h-[10vh] w-4/5 mx-auto justify-between items-center">
       <div className="text-base font-bold tracking-widest md:text-2xl lg:text-3xl">
         <Typewriter words={['hyoungmin']} />
       </div>
