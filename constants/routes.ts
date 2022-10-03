@@ -13,3 +13,5 @@ export const ROUTES: Routes = {
   EXPERIENCE: '#experience',
   MORE: '#more',
 };
+
+export default ROUTES;
