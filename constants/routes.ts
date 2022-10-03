@@ -6,10 +6,12 @@ interface Routes {
   MORE: string;
 }
 
-export const ROUTES: Routes = {
+const ROUTES: Routes = {
   HOME: '/',
   ABOUT: '/about',
   PROJECTS: '/projects',
   EXPERIENCE: '/experience',
   MORE: '/more',
 };
+
+export default ROUTES;

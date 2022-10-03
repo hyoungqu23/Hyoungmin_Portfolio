@@ -21,7 +21,8 @@ interface Projects {
 //   notionUrl: '',
 //   figmaUrl: '',
 // },
-export const PROJECTS: Projects[] = [
+
+const PROJECTS: Projects[] = [
   {
     title: '프리온보딩 기업과제',
     summary: '원티드 프리온보딩 코스에서 수행한 기업 과제입니다.',
@@ -96,3 +97,5 @@ export const PROJECTS: Projects[] = [
     figmaUrl: 'https://www.figma.com/file/MmTalHhD88uGEyQJGJKyoe/Pet-Shop?node-id=637%3A49',
   },
 ];
+
+export default PROJECTS;
