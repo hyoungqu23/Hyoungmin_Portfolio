@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <footer className="absolute bottom-0 flex w-full h-[10vh] items-center flex-col p-1 gap-2 lg:flex-row lg:justify-evenly">
-      <div className=" text-sm">Copyright 2022. Hyougmin. All rights reserved.</div>
-      <ul className="flex text-primary items-center gap-x-5 lg:gap-x-10">
+    <footer className="flex w-4/5 mx-auto h-[50px] items-center flex-row justify-between p-1 gap-2">
+      <div className="text-sm">Copyright 2022. Hyougmin. All rights reserved.</div>
+      <ul className="flex items-center text-primary gap-x-5 lg:gap-x-10">
         <li>
           <a href="https://github.com/hyoungqu23">
             <img className="w-5 h-5 lg:w-7 lg:h-7" src="/image/github.svg" alt="깃허브" />
