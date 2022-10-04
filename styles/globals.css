@@ -10,8 +10,9 @@ body {
     'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji',
     'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
 
-  color: #414345;
-  background: #cfdef3;
+  color: #000;
+  background: #fff;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -28,7 +29,7 @@ a {
     color-scheme: dark;
   }
   body {
-    color: #cfdef3;
-    background: #414345;
+    color: #fff;
+    background: #000;
   }
 }
