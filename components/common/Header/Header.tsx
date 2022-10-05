@@ -8,7 +8,7 @@ const Header = () => {
       <div className="text-base font-bold tracking-widest md:text-2xl lg:text-3xl">
         <Typewriter words={['hyoungmin']} />
       </div>
-      <nav>
+      <nav className="hidden lg:block">
         <ul className="flex gap-5 text-base lg:gap-10 lg:text-lg">
           <li>
             <a href={ROUTES.HOME}>홈</a>

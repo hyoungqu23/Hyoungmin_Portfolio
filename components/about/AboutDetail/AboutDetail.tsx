@@ -5,7 +5,7 @@ type Props = {
 };
 
 const AboutDetail = (props: Props) => {
-  return <p className="text-base lg:text-lg">{props.data}</p>;
+  return <p className="text-xs lg:text-lg">{props.data}</p>;
 };
 
 export default AboutDetail;
