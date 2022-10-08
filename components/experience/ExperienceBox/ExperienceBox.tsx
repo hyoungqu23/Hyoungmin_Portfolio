@@ -19,4 +19,5 @@ const ExperienceBox = ({ education, index }: Props) => (
     <p className="text-xs lg:text-sm">{education.period}</p>
   </motion.div>
 );
+
 export default ExperienceBox;
