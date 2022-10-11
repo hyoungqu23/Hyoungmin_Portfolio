@@ -1,5 +1,5 @@
 import React from 'react';
-import ExperienceBox from 'components/experience/ExperienceBox/ExperienceBox';
+import ExperienceBox from 'components/experience/ExperienceBox';
 import { educationData } from 'data/educationData';
 
 const Experience = () => (
