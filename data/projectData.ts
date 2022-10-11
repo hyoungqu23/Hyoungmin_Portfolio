@@ -10,21 +10,23 @@ type Url = {
   figmaUrl?: string;
 };
 
-interface Projects {
+export interface Projects {
   title: string;
   descriptions: Description[];
   stack: string[];
   period: string;
   type: string;
+  imgUrl: string;
   url: Url;
 }
 
 const projects: Projects[] = [
   {
-    title: 'SPA Routing 기능 개발 프로젝트',
+    title: 'SPA Router',
     stack: ['JavaScript', 'React', 'Context API'],
     period: '2022.10.06 - 2022.10.07',
     type: '개인 프로젝트 / 프론트엔드',
+    imgUrl: '',
     url: {
       githubUrl: 'https://github.com/hyoungqu23/SPA_Router',
       notionUrl: 'https://www.notion.so/SPA-Routing-524ab86f0720449a88b81bfdc353c10c',
@@ -38,10 +40,11 @@ const projects: Projects[] = [
     ],
   },
   {
-    title: '투자 관리 서비스 Admin 기능 개발 프로젝트',
+    title: '투자 관리 서비스 Admin',
     stack: ['JavaScript', 'React', 'Redux', 'Chakra UI', 'Git'],
     period: '2022.09.20 - 2022.09.25',
     type: '팀 프로젝트 / 프론트엔드 5명',
+    imgUrl: '',
     url: {
       pageUrl: '',
       githubUrl:
@@ -63,10 +66,11 @@ const projects: Projects[] = [
     ],
   },
   {
-    title: '댓글 기능 개발 프로젝트',
+    title: '댓글 기능 프로젝트',
     stack: ['JavaScript', 'React', 'Redux', 'Redux-Toolkit', 'Git'],
     period: '2022.09.16 - 2022.09.19',
     type: '팀 프로젝트 / 프론트엔드 5명',
+    imgUrl: '',
     url: {
       pageUrl: '',
       githubUrl:
@@ -88,10 +92,11 @@ const projects: Projects[] = [
     ],
   },
   {
-    title: '온라인 스토어 신규 페이지 리뉴얼 프로젝트',
+    title: '온라인 스토어 리뉴얼 프로젝트',
     stack: ['JavaScript', 'React', 'Emotion', 'Redux', 'Redux-Persist', 'Git'],
     period: '2022.09.02 - 2022.09.05',
     type: '팀 프로젝트 / 프론트엔드 8명',
+    imgUrl: '',
     url: {
       pageUrl: 'https://fruitte-renewal.netlify.app/',
       githubUrl:
@@ -114,9 +119,10 @@ const projects: Projects[] = [
   },
   {
     title: 'CFD',
-    stack: ['JavaScript', 'Next.js', 'Redux', 'Emotion', 'Ant Design', 'Express', 'MongoDB', 'Git'],
+    stack: ['JavaScript', 'Next.js', 'Redux', 'Emotion', 'Ant Design', 'Git'],
     period: '2022.07.04 - 2022.07.22',
     type: '팀 프로젝트 / 프론트엔드 3명 + 백엔드 2명',
+    imgUrl: 'https://media.graphassets.com/VJDDgq95TbSHgKhGUusV',
     url: {
       pageUrl: '',
       githubUrl: 'https://github.com/hyoungqu23/CFD',
@@ -138,9 +144,10 @@ const projects: Projects[] = [
   },
   {
     title: 'Collector’s',
-    stack: ['JavaScript', 'CSS3', 'MongoDB', 'Express', 'S3', 'Git'],
+    stack: ['JavaScript', 'CSS3', 'S3', 'Git'],
     period: '2022.05.23 - 2022.06.03',
     type: '팀 프로젝트, 프론트엔드 2명 + 백엔드 2명',
+    imgUrl: 'https://media.graphassets.com/OD1hWeLyRei7YKQo94tU',
     url: {
       pageUrl: 'https://collectors-twenty.herokuapp.com/',
       githubUrl: 'https://github.com/Elice-Team-20/Collectors',

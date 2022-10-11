@@ -6,7 +6,7 @@ import Projects from 'components/projects/Projects';
 
 const Main: NextPage = () => {
   return (
-    <main className="w-11/12 mx-auto lg:w-4/5">
+    <main className="w-11/12 mx-auto md:w-4/5">
       <Home />
       <About />
       <Projects />
