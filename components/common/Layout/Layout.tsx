@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Header from 'components/common/Header/Header';
-import QuickMenu from 'components/common/QuickMenu/QuickMenu';
 import Footer from 'components/common/Footer/Footer';
 import { PropsWithChildren } from 'react';
 
@@ -14,7 +13,6 @@ const Layout = (props: PropsWithChildren) => {
       </Head>
       <Header />
       {props.children}
-      <QuickMenu />
       <Footer />
     </>
   );

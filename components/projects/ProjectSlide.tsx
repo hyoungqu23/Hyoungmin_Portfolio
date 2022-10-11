@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import type { Projects } from 'data/projectData';
-import Link from 'next/link';
 
 type Props = {
   project: Projects;
@@ -14,7 +13,7 @@ const ProjectSlide = ({ project }: Props) => {
 
   return (
     <div className="flex flex-col items-center justify-center flex-shrink-0 w-screen h-screen p-20 space-y-5 snap-center md:p-44">
-      <Link href={githubUrl}>
+      <a href={githubUrl} target="_blank">
         <motion.img
           initial={{ opacity: 0 }}
           transition={{ duration: 1.2 }}
@@ -28,7 +27,7 @@ const ProjectSlide = ({ project }: Props) => {
           data-bs-toggle="tooltip"
           title="클릭하면 GitHub Repository로 이동합니다."
         />
-      </Link>
+      </a>
       <div className="max-w-6xl px-0 text-center md:px-10">
         <h4 className="text-xl font-semibold text-center">{title}</h4>
         <p className="text-sm text-gray-400">{type}</p>
