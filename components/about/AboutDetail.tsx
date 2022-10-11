@@ -8,8 +8,8 @@ type Props = {
 const AboutDetail = ({ data }: Props) => {
   return (
     <div>
-      <p className="text-sm text-sky-500 lg:text-lg">{data.title}</p>
-      <p className="text-xs lg:text-base">{data.content}</p>
+      <p className="text-sm text-sky-500 md:text-lg">{data.title}</p>
+      <p className="text-xs md:text-base">{data.content}</p>
     </div>
   );
 };
