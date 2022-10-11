@@ -4,7 +4,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const Home = () => {
   return (
-    <section id="home" className="container flex flex-col items-center justify-center h-[90vh]">
+    <section id="home" className="container flex flex-col items-center justify-center h-screen">
       <div className="flex flex-row">
         <h1 className="text-5xl font-bold lg:text-9xl">H</h1>
         <motion.h1

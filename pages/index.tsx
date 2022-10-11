@@ -9,8 +9,8 @@ const Main: NextPage = () => {
     <main className="w-11/12 mx-auto lg:w-4/5">
       <Home />
       <About />
-      <Experience />
       <Projects />
+      <Experience />
     </main>
   );
 };

@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="container relative flex flex-col-reverse lg:flex-row gap-10 items-center justify-center h-[90vh]"
+      className="container relative flex flex-col-reverse items-center justify-center h-screen gap-10 lg:flex-row"
     >
       <h3 className="absolute text-3xl tracking-widest uppercase top-10">About</h3>
       <motion.div
@@ -25,12 +25,12 @@ const About = () => {
         </div>
       </motion.div>
       <motion.div
-        initial={{ x: '500', opacity: 0 }}
+        initial={{ x: '50%', opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1.2 }}
-        className="overflow-hidden"
+        className="relative w-40 h-40 overflow-hidden lg:w-80 lg:h-80"
       >
-        <Image src="/image/profile.svg" width={'500%'} height={'500%'} />
+        <Image src="/image/profile.svg" layout="fill" />
       </motion.div>
     </section>
   );
