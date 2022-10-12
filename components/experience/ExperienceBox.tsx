@@ -9,13 +9,19 @@ type Props = {
 
 const ExperienceBox = ({ education, index }: Props) => (
   <motion.div
-    initial={{ opacity: 0, x: '50%' }}
+    initial={{ opacity: 0, x: '-100' }}
     whileInView={{ opacity: 1, x: 0 }}
     transition={{ duration: 1 * (index + 1) }}
-    className="w-[50vw] md:w-[30vw] h-fit text-center p-4"
+    className="w-full p-4 text-center h-fit"
   >
     <h3 className="text-xs md:text-sm">{education.institute}</h3>
-    <h2 className="text-base md:text-lg text-bold">{education.program}</h2>
+    {education.notionUrl ? (
+      <a href={education.notionUrl} target="_blank" className="text-sm md:text-lg text-bold">
+        {education.program}
+      </a>
+    ) : (
+      <h2 className="text-sm md:text-lg text-bold">{education.program}</h2>
+    )}
     <p className="text-xs md:text-sm">{education.period}</p>
   </motion.div>
 );

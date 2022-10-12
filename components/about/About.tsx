@@ -10,7 +10,7 @@ const About = () => {
       id="about"
       className="container relative flex flex-col-reverse items-center justify-center h-screen gap-10 md:flex-row"
     >
-      <h3 className="absolute text-2xl tracking-widest uppercase top-10">About</h3>
+      <h3 className="absolute text-2xl tracking-widest uppercase top-5 md:top-10">About</h3>
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
