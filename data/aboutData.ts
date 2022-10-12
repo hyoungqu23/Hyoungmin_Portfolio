@@ -19,7 +19,7 @@ export const aboutDetailData: AboutDetail = [
   {
     title: '기술과 툴에 관심이 많습니다.',
     content:
-      '서비스의 질적 향상과 효율적인 협업을 위해 Clean Code, CI/CD, 최적화, 다양한 협업 툴 활용 등에 꾸준히 관심을 갖고 학습합니다.',
+      '서비스의 질적 향상과 효율적인 협업을 위해 Clean Code, 최적화, 다양한 협업 툴 활용 등에 꾸준히 관심을 갖고 학습합니다.',
   },
   {
     title: '지식의 선순환을 꿈꾸고 있습니다.',
