@@ -15,8 +15,10 @@ const Header = () => {
         {toggleMenu ? '닫기' : '열기'}
       </button>
       <nav
-        className={`absolute top-[10vh] transition-all duration-300 ease-in left-0 w-full md:static ${
-          toggleMenu ? 'top-[10vh] opacity-100' : 'top-[-50vh] opacity-0'
+        className={`absolute top-[10vh] transition-all duration-300 ease-in left-0 w-full md:w-fit ${
+          toggleMenu
+            ? 'top-[10vh] opacity-100 md:top-0'
+            : 'top-[-50vh] opacity-0 md:static md:opacity-100'
         }`}
       >
         <ul className="flex flex-col gap-5 py-5 text-base text-center md:flex-row md:gap-10 md:text-lg">
