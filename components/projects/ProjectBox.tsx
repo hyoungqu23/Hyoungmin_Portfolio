@@ -21,7 +21,7 @@ const ProjectBox = ({ project }: Props) => {
         className="relative w-40 h-40 overflow-hidden md:w-2/3 md:h-2/3"
       >
         <a href={githubUrl}>
-          <Image src={imgUrl} layout="fill" />
+          <Image src={imgUrl} layout="responsive" />
         </a>
       </motion.div>
       <motion.div
