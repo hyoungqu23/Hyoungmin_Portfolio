@@ -30,7 +30,7 @@ const About = () => {
         transition={{ duration: 1.2 }}
         className="relative w-40 h-40 overflow-hidden md:w-60 md:h-60"
       >
-        <Image src="/image/profile.svg" layout="fill" />
+        <Image src="/icons/profile.svg" layout="fill" />
       </motion.div>
     </section>
   );
