@@ -2,8 +2,8 @@ import React from 'react';
 
 const QuickMenu = () => {
   return (
-    <div className="fixed w-fit left-5 top-[50%]">
-      <div className="absolute top-0 w-1 h-full bg-black -left-2 " />
+    <div className="fixed hidden md:static w-fit left-5 top-[50%]">
+      <div className="absolute top-0 w-1 h-full bg-black dark:bg-white -left-2 " />
       <ul className="flex flex-col items-center gap-3">
         <li>
           <a href="https://github.com/hyoungqu23" target="_blank">
