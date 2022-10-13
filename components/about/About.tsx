@@ -28,7 +28,7 @@ const About = () => {
         initial={{ x: '50%', opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1.2 }}
-        className="relative w-40 h-40 overflow-hidden md:w-60 md:h-60"
+        className="relative w-40 h-40 overflow-hidden md:w-96 md:h-96"
       >
         <Image src="/icons/profile.svg" layout="fill" />
       </motion.div>

@@ -7,9 +7,11 @@ const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <header className="z-30 relative flex items-center js mx-auto md:sticky top-0 h-[10vh] w-4/5 justify-between md:bg-transparent md:flex-row">
+    <header className="z-50 relative flex items-center js mx-auto md:sticky top-0 h-[10vh] w-4/5 justify-between md:bg-transparent md:flex-row">
       <div className="text-xl font-bold tracking-widest text-center md:text-2xl">
-        <Typewriter words={['hyoungmin']} loop={true} />
+        <a href="/">
+          <Typewriter words={['hyoungmin']} />
+        </a>
       </div>
       <button className="cursor-pointer md:hidden" onClick={() => setToggleMenu(!toggleMenu)}>
         {toggleMenu ? '닫기' : '열기'}
