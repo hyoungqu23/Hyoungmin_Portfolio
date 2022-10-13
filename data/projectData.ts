@@ -40,6 +40,7 @@ const projects: Projects[] = [
     url: {
       githubUrl: 'https://github.com/hyoungqu23/SPA_Router',
       notionUrl: 'https://www.notion.so/SPA-Routing-524ab86f0720449a88b81bfdc353c10c',
+      retroUrl: 'https://hyoungmin.notion.site/SPA-Routing-524ab86f0720449a88b81bfdc353c10c',
     },
     descriptions: [
       {
@@ -58,11 +59,10 @@ const projects: Projects[] = [
     type: '팀 프로젝트 / 프론트엔드 5명',
     imgUrl: Project_Admin,
     url: {
-      pageUrl: '',
       githubUrl:
         'https://github.com/wanted-pre-onboarding-fe-6th-team2/pre-onboarding-assignment-week-4-1-team-2',
       notionUrl: 'https://www.notion.so/admin-eeca6c576a0a4a68a155d3b7639c2856',
-      figmaUrl: '',
+      retroUrl: 'https://hyoungmin.notion.site/admin-eeca6c576a0a4a68a155d3b7639c2856',
     },
     descriptions: [
       {
@@ -86,11 +86,10 @@ const projects: Projects[] = [
     type: '팀 프로젝트 / 프론트엔드 5명',
     imgUrl: Project_Comments,
     url: {
-      pageUrl: '',
       githubUrl:
         'https://github.com/wanted-pre-onboarding-fe-6th-team2/pre-onboarding-assignment-week-3-2-team-2',
       notionUrl: 'https://www.notion.so/e93ad69d33d5476fba1a6f491c286c8a',
-      figmaUrl: '',
+      retroUrl: 'https://hyoungmin.notion.site/e93ad69d33d5476fba1a6f491c286c8a',
     },
     descriptions: [
       {
@@ -118,7 +117,7 @@ const projects: Projects[] = [
       githubUrl:
         'https://github.com/wanted-pre-onboarding-fe-6th-team2/pre-onboarding-assignment-week-1-2-team-2',
       notionUrl: 'https://www.notion.so/8712c6543e664ee3931a4e07018e523f',
-      figmaUrl: '',
+      retroUrl: 'https://hyoungmin.notion.site/8712c6543e664ee3931a4e07018e523f',
     },
     descriptions: [
       {
@@ -142,10 +141,9 @@ const projects: Projects[] = [
     type: '팀 프로젝트 / 프론트엔드 3명 + 백엔드 2명',
     imgUrl: Project_CFD,
     url: {
-      pageUrl: '',
       githubUrl: 'https://github.com/hyoungqu23/CFD',
       notionUrl: 'https://www.notion.so/Community-For-Developers-f28f68db503d493bb46c755521fcc949',
-      figmaUrl: '',
+      retroUrl: 'https://hyoungmin.notion.site/CFD-ebc2c0899eb9405f88c20cdbf0f359d8',
     },
     descriptions: [
       {
