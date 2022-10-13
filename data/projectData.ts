@@ -38,9 +38,8 @@ const projects: Projects[] = [
     type: '개인 프로젝트 / 프론트엔드',
     imgUrl: Project_Router,
     url: {
-      githubUrl: 'https://github.com/hyoungqu23/SPA_Router',
-      notionUrl: 'https://www.notion.so/SPA-Routing-524ab86f0720449a88b81bfdc353c10c',
-      retroUrl: 'https://hyoungmin.notion.site/SPA-Routing-524ab86f0720449a88b81bfdc353c10c',
+      pageUrl: 'https://hyoungmin-portfolio.vercel.app/',
+      githubUrl: 'https://github.com/hyoungqu23/Hyoungmin_Portfolio',
     },
     descriptions: [
       {
