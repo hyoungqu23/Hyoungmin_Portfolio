@@ -1,4 +1,5 @@
 import { StaticImageData } from 'next/image';
+import Project_Portfolio from 'public/images/Project_Portfolio.png';
 import Project_Router from 'public/images/Project_Router.png';
 import Project_Admin from 'public/images/Project_Admin.png';
 import Project_Comments from 'public/images/Project_Comments.png';
@@ -32,11 +33,11 @@ export interface Projects {
 
 const projects: Projects[] = [
   {
-    title: 'SPA Router',
+    title: '프론트엔드 개발자 이형민입니다',
     stack: ['Next.js', 'TypeScript', 'React', 'Tailwind CSS'],
     period: '2022.09.29 - 2022.10.13',
     type: '개인 프로젝트 / 프론트엔드',
-    imgUrl: Project_Router,
+    imgUrl: Project_Portfolio,
     url: {
       pageUrl: 'https://hyoungmin-portfolio.vercel.app/',
       githubUrl: 'https://github.com/hyoungqu23/Hyoungmin_Portfolio',
