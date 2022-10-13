@@ -33,6 +33,31 @@ export interface Projects {
 const projects: Projects[] = [
   {
     title: 'SPA Router',
+    stack: ['Next.js', 'TypeScript', 'React', 'Tailwind CSS'],
+    period: '2022.09.29 - 2022.10.13',
+    type: '개인 프로젝트 / 프론트엔드',
+    imgUrl: Project_Router,
+    url: {
+      githubUrl: 'https://github.com/hyoungqu23/SPA_Router',
+      notionUrl: 'https://www.notion.so/SPA-Routing-524ab86f0720449a88b81bfdc353c10c',
+      retroUrl: 'https://hyoungmin.notion.site/SPA-Routing-524ab86f0720449a88b81bfdc353c10c',
+    },
+    descriptions: [
+      {
+        tag: 'feature',
+        content:
+          '개발자로서 자신의 프로젝트와 관련 정보를 제공하기 위해 포트폴리오 웹 사이트를 제작했습니다.',
+      },
+      {
+        tag: 'feature',
+        content: '모바일을 고려해 Tailwind CSS를 활용하여 반응형 디자인을 구현했습니다.',
+      },
+    ],
+    retrospective:
+      '기획부터 배포까지 혼자 진행하면서 TypeScript, Tailwind CSS 등 새로운 기술을 학습할 수 있는 좋은 경험이었습니다. 자세한 회고는 아래 링크에서 보실 수 있습니다.',
+  },
+  {
+    title: 'SPA Router',
     stack: ['JavaScript', 'React', 'Context API'],
     period: '2022.10.06 - 2022.10.07',
     type: '개인 프로젝트 / 프론트엔드',
@@ -56,7 +81,7 @@ const projects: Projects[] = [
     title: '투자 관리 서비스 Admin',
     stack: ['JavaScript', 'React', 'Redux', 'Chakra UI', 'Git'],
     period: '2022.09.20 - 2022.09.25',
-    type: '팀 프로젝트 / 프론트엔드 5명',
+    type: '팀 프로젝트 / 프론트엔드',
     imgUrl: Project_Admin,
     url: {
       githubUrl:
@@ -83,7 +108,7 @@ const projects: Projects[] = [
     title: '댓글 기능 프로젝트',
     stack: ['JavaScript', 'React', 'Redux', 'Redux-Toolkit', 'Git'],
     period: '2022.09.16 - 2022.09.19',
-    type: '팀 프로젝트 / 프론트엔드 5명',
+    type: '팀 프로젝트 / 프론트엔드',
     imgUrl: Project_Comments,
     url: {
       githubUrl:
@@ -110,7 +135,7 @@ const projects: Projects[] = [
     title: '온라인 스토어 리뉴얼 프로젝트',
     stack: ['JavaScript', 'React', 'Emotion', 'Redux', 'Redux-Persist', 'Git'],
     period: '2022.09.02 - 2022.09.05',
-    type: '팀 프로젝트 / 프론트엔드 8명',
+    type: '팀 프로젝트 / 프론트엔드',
     imgUrl: Project_StoreRenewal,
     url: {
       pageUrl: 'https://fruitte-renewal.netlify.app/',
