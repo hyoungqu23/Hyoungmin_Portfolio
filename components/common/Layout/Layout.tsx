@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Header from 'components/common/Header/Header';
 import Footer from 'components/common/Footer/Footer';
 import { PropsWithChildren } from 'react';
-import profile from 'public/icons/profile.svg';
 
 const Layout = (props: PropsWithChildren) => {
   return (
@@ -17,7 +16,7 @@ const Layout = (props: PropsWithChildren) => {
         <meta property="og:title" content="Hyoungmin's Portfolio" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://hyoungmin-portfolio.vercel.app/" />
-        <meta property="og:image" content={profile} />
+        <meta property="og:image" content="/icons/profile.svg" />
         <meta property="og:article:author" content="Hyoungmin" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
