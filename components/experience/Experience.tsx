@@ -9,7 +9,8 @@ const Experience = () => (
   >
     <h3 className="absolute text-2xl tracking-widest uppercase top-5 md:top-10">Experience</h3>
     <p className="absolute text-xs text-gray-500 top-14 md:top-20">
-      프로그램명을 클릭하면 <span className="text-sky-500">프로그램 참가 회고</span>로 연결됩니다.
+      프로그램명을 클릭하면 <span className="font-bold text-sky-500">프로그램 참가 회고</span>로
+      연결됩니다.
     </p>
     {educationData.map((data, index) => (
       <ExperienceBox key={data.program} education={data} index={index} />

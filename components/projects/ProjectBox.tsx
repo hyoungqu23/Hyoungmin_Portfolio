@@ -34,14 +34,14 @@ const ProjectBox = ({ project }: Props) => {
         <h4 className="text-xl font-semibold text-center">
           <a href={githubUrl}>{title}</a>
         </h4>
-        <p className="text-xs text-gray-400">{type}</p>
+        <p className="text-sm">{type}</p>
         <p className="text-xs text-gray-400">{period}</p>
         {stack.map(skill => (
           <span key={skill} className="mr-1 text-xs text-sky-500">
             {skill}
           </span>
         ))}
-        <div className="my-3 text-sm text-left text-gray-600 dark:text-gray-400 text-bold">
+        <div className="my-3 text-sm font-bold text-left text-gray-600 dark:text-gray-400">
           {retrospective}
         </div>
         <div className="my-4 text-left">
@@ -54,13 +54,15 @@ const ProjectBox = ({ project }: Props) => {
             </p>
           ))}
         </div>
-        <a
-          className="p-1 text-sm rounded text-bold bg-sky-500 text-sky-100 hover:text-sky-500 hover:bg-sky-100"
-          href={retroUrl}
-          target="_blank"
-        >
-          {title} 회고 보러가기
-        </a>
+        {retroUrl && (
+          <a
+            className="p-1 text-sm font-bold rounded bg-sky-500 text-sky-100 hover:text-sky-500 hover:bg-sky-100"
+            href={retroUrl}
+            target="_blank"
+          >
+            {title} 회고 보러가기
+          </a>
+        )}
       </motion.div>
     </div>
   );

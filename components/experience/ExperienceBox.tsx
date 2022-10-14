@@ -16,11 +16,11 @@ const ExperienceBox = ({ education, index }: Props) => (
   >
     <h3 className="text-xs md:text-sm">{education.institute}</h3>
     {education.notionUrl ? (
-      <a href={education.notionUrl} target="_blank" className="text-sm md:text-lg text-bold">
+      <a href={education.notionUrl} target="_blank" className="text-sm font-bold md:text-lg">
         {education.program}
       </a>
     ) : (
-      <h2 className="text-sm md:text-lg text-bold">{education.program}</h2>
+      <h2 className="text-sm font-bold md:text-lg">{education.program}</h2>
     )}
     <p className="text-xs md:text-sm">{education.period}</p>
   </motion.div>

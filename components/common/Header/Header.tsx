@@ -7,7 +7,7 @@ const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <header className="z-50 relative flex items-center js mx-auto md:sticky top-0 h-[10vh] w-4/5 justify-between md:bg-transparent md:flex-row">
+    <header className="z-50 relative flex items-center js mx-auto md:sticky top-0 h-[10vh] w-4/5 justify-between md:backdrop-blur-sm md:flex-row">
       <div className="text-xl font-bold tracking-widest text-center md:text-2xl">
         <a href="/">
           <Typewriter words={['hyoungmin']} />

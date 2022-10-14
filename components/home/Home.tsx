@@ -34,7 +34,7 @@ const Home = () => {
         <h2 className="text-xl md:text-2xl">
           <span className="font-bold">이형민</span>입니다
         </h2>
-        <div className="flex flex-row gap-5 mt-4 text-xs text-bold md:text-base">
+        <div className="flex flex-row gap-5 mt-4 text-xs font-bold md:text-base">
           <div>
             <a href="https://github.com/hyoungqu23">GitHub</a>
           </div>
