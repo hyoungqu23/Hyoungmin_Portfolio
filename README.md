@@ -1,5 +1,7 @@
 # 프론트엔드 개발자 이형민입니다.
 
+![image](https://user-images.githubusercontent.com/76457116/195875142-53cb5320-ec71-48d7-9a4d-44acbf5118f4.png)
+
 Next.js, TypeScript, Tailwind CSS, Framer Motion을 활용한 포트폴리오 사이트입니다.
 
 - 개발자로서 자신의 프로젝트와 관련 정보를 제공하기 위해 포트폴리오 웹 사이트를 제작했습니다.
@@ -7,7 +9,7 @@ Next.js, TypeScript, Tailwind CSS, Framer Motion을 활용한 포트폴리오 �
 
 ## 페이지
 
-[포트폴리오 보러가기](https://hyoungmin-portfolio.vercel.app/)
+[포트폴리오 보러가기](https://hyoungmin.vercel.app/)
 
 ## 기획
 
