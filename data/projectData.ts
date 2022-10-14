@@ -39,7 +39,7 @@ const projects: Projects[] = [
     type: '개인 프로젝트 / 프론트엔드',
     imgUrl: Project_Portfolio,
     url: {
-      pageUrl: 'https://hyoungmin-portfolio.vercel.app/',
+      pageUrl: 'https://hyoungmin.vercel.app/',
       githubUrl: 'https://github.com/hyoungqu23/Hyoungmin_Portfolio',
     },
     descriptions: [
