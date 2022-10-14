@@ -1,8 +1,9 @@
 # 프론트엔드 개발자 이형민입니다.
 
-![image](https://user-images.githubusercontent.com/76457116/193171448-842eff80-f974-4579-aa44-3909dcebbe4c.png)
-
 Next.js, TypeScript, Tailwind CSS, Framer Motion을 활용한 포트폴리오 사이트입니다.
+
+- 개발자로서 자신의 프로젝트와 관련 정보를 제공하기 위해 포트폴리오 웹 사이트를 제작했습니다.
+- 기획부터 배포까지 혼자 진행하면서 TypeScript, Tailwind CSS 등 새로운 기술을 학습할 수 있는 좋은 경험이었습니다.
 
 ## 페이지
 
@@ -16,7 +17,7 @@ Next.js, TypeScript, Tailwind CSS, Framer Motion을 활용한 포트폴리오 �
 
 ## 기간
 
-2022.09.30 - 2022.10.04
+2022.09.30 - 2022.10.14
 
 ## 기술 스택
 
@@ -32,34 +33,44 @@ Next.js, TypeScript, Tailwind CSS, Framer Motion을 활용한 포트폴리오 �
 
 ```
 📦
-├─ .eslintignore
-├─ .eslintrc.json
-├─ .gitignore
-├─ .husky
-├─ .prettierignore
-├─ .prettierrc
-├─ README.md
-├─ components
-│  ├─ common
-│  └─ projects
-├─ constants
-├─ data
-├─ next.config.js
-├─ package-lock.json
-├─ package.json
-├─ pages
-│  ├─ _app.tsx
-│  ├─ _document.tsx
-│  ├─ about
-│  ├─ experience
-│  ├─ index.tsx
-│  ├─ more
-│  └─ projects
-├─ postcss.config.js
-├─ public
-├─ styles
-├─ tailwind.config.js
-└─ tsconfig.json
+├─ components
+│  ├─ about
+│  ├─ common
+│  │  ├─ Footer
+│  │  ├─ Header
+│  │  ├─ Layout
+│  │  └─ QuickMenu
+│  ├─ experience
+│  ├─ home
+│  └─ projects
+├─ constants
+│  └─ routes.ts
+├─ data
+│  ├─ aboutData.ts
+│  ├─ educationData.ts
+│  └─ projectData.ts
+├─ pages
+│  ├─ _app.tsx
+│  ├─ _document.tsx
+│  └─ index.tsx
+├─ public
+│  ├─ favicon.svg
+│  ├─ icons
+│  └─ images
+├─ styles
+├─ .eslintignore
+├─ .eslintrc.ts
+├─ .gitignore
+├─ .husky
+├─ .prettierignore
+├─ .prettierrc
+├─ README.md
+├─ next.config.js
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.js
+├─ tailwind.config.js
+└─ tsconfig.json
 ```
 
 ## 주요 구현 사항
