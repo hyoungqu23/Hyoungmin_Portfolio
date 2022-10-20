@@ -3,7 +3,7 @@ import { ROUTES } from 'constants/routes';
 
 const QuickMenu = () => {
   return (
-    <aside className="fixed w-fit left-5 top-[40%] dark:bg-white rounded-sm opacity-75 dark:p-3">
+    <aside className="hidden md:fixed w-fit left-5 top-[40%] dark:bg-white rounded-sm opacity-75 dark:p-3">
       <div className="absolute top-0 w-1 h-full bg-black dark:hidden dark:bg-white -left-2 " />
       <ul className="flex flex-col items-center gap-3">
         <li>
