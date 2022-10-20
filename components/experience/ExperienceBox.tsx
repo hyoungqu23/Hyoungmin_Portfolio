@@ -15,8 +15,8 @@ const ExperienceBox = ({ education, index }: Props) => (
     className="w-full p-4 text-center h-fit"
   >
     <h3 className="text-xs md:text-sm">{education.institute}</h3>
-    {education.notionUrl ? (
-      <a href={education.notionUrl} target="_blank" className="text-sm font-bold md:text-lg">
+    {education.retroUrl ? (
+      <a href={education.retroUrl} target="_blank" className="text-sm font-bold md:text-lg">
         {education.program}
       </a>
     ) : (
