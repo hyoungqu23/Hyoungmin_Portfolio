@@ -47,12 +47,12 @@ const projects: Projects[] = [
     descriptions: [
       {
         tag: 'feature',
-        content:
-          '최적화된 웹 사이트를 만들고자 웹 접근성과 SEO를 최대한 향상시켜 Lighthouse에서 100점을 받았습니다.',
+        content: 'First Load JavaScript를 약 4.5배 감소시켜 웹 사이트의 성능을 향상시켰습니다.',
       },
       {
         tag: 'feature',
-        content: 'First Load JavaScript를 약 4.5배 감소시켜 웹 사이트의 성능을 향상시켰습니다.',
+        content:
+          '최적화된 웹 사이트를 만들고자 웹 접근성과 SEO를 최대한 향상시켜 Lighthouse 점수를 높였습니다.',
       },
       {
         tag: 'feature',
