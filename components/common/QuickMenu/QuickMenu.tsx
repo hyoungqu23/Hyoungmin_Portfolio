@@ -1,4 +1,5 @@
 import React from 'react';
+import { ROUTES } from 'constants/routes';
 
 const QuickMenu = () => {
   return (
@@ -6,38 +7,32 @@ const QuickMenu = () => {
       <div className="absolute top-0 w-1 h-full bg-black dark:hidden dark:bg-white -left-2 " />
       <ul className="flex flex-col items-center gap-3">
         <li>
-          <a href="https://github.com/hyoungqu23" target="_blank">
+          <a href={ROUTES.GITHUB} target="_blank">
             <img className="w-5 h-5" src="/icons/github.svg" alt="깃허브" />
           </a>
         </li>
         <li>
-          <a href="https://open.kakao.com/o/szcSNlHe" target="_blank">
+          <a href={ROUTES.KAKAO} target="_blank">
             <img className="w-5 h-5" src="/icons/kakao.svg" alt="카카오톡 오픈채팅" />
           </a>
         </li>
         <li>
-          <a
-            href="https://hyoungmin.notion.site/f4673e33e89f4143a0526b91d0040f89?v=38d3e22f4eb242149ed9dc21f53f7e6a"
-            target="_blank"
-          >
+          <a href={ROUTES.BLOG} target="_blank">
             <img className="w-5 h-5" src="/icons/blog.svg" alt="블로그" />
           </a>
         </li>
         <li>
-          <a href="mailto:hyoungqu23@gmail.com" target="_blank">
+          <a href={ROUTES.EMAIL} target="_blank">
             <img className="w-5 h-5" src="/icons/google.svg" alt="구글 메일" />
           </a>
         </li>
         <li>
-          <a
-            href="https://hyoungmin.notion.site/Hyoungmin-148ffdf1a5fe480b865ff6a0de802444"
-            target="_blank"
-          >
+          <a href={ROUTES.NOTION} target="_blank">
             <img className="w-5 h-5" src="/icons/notion.svg" alt="노션" />
           </a>
         </li>
         <li>
-          <a href="linkedin.com/in/hyoung-min-lee-9b5489196" target="_blank">
+          <a href={ROUTES.LINKEDIN} target="_blank">
             <img className="w-5 h-5" src="/icons/linkedin.svg" alt="링크드인" />
           </a>
         </li>

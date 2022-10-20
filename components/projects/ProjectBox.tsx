@@ -20,7 +20,7 @@ const ProjectBox = ({ project }: Props) => {
         transition={{ duration: 1.2 }}
         className="relative w-40 h-40 overflow-hidden md:w-2/3 md:h-2/3"
       >
-        <a href={githubUrl}>
+        <a href={githubUrl} target="_blank">
           <Image src={imgUrl} layout="responsive" />
         </a>
       </motion.div>
@@ -31,8 +31,10 @@ const ProjectBox = ({ project }: Props) => {
         viewport={{ once: true }}
         className="px-0 text-center md:w-1/3 md:px-10"
       >
-        <h4 className="text-xl font-semibold text-center">
-          <a href={githubUrl}>{title}</a>
+        <h4 className="text-xl font-semibold text-center hover:before:content-['🔗']">
+          <a href={githubUrl} target="_blank">
+            {title}
+          </a>
         </h4>
         <p className="text-sm">{type}</p>
         <p className="text-xs text-gray-400">{period}</p>
@@ -56,7 +58,7 @@ const ProjectBox = ({ project }: Props) => {
         </div>
         {retroUrl && (
           <a
-            className="p-1 text-sm font-bold rounded bg-sky-500 text-sky-100 hover:text-sky-500 hover:bg-sky-100"
+            className="px-2 py-1 text-sm font-bold rounded bg-sky-500 text-sky-100 hover:text-sky-500 hover:bg-sky-100 hover:before:content-['🔗']"
             href={retroUrl}
             target="_blank"
           >

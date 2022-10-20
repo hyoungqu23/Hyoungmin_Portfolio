@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Typewriter } from 'react-simple-typewriter';
+import { ROUTES } from 'constants/routes';
 
 const Home = () => {
   return (
@@ -36,15 +37,19 @@ const Home = () => {
         </h2>
         <div className="flex flex-row gap-5 mt-4 text-xs font-bold md:text-base">
           <div>
-            <a href="https://github.com/hyoungqu23">GitHub</a>
+            <a href={ROUTES.GITHUB} target="_blank">
+              GitHub
+            </a>
           </div>
           <div>
-            <a href="https://www.notion.so/hyoungmin/f4673e33e89f4143a0526b91d0040f89?v=38d3e22f4eb242149ed9dc21f53f7e6a">
+            <a href={ROUTES.BLOG} target="_blank">
               Blog
             </a>
           </div>
           <div>
-            <a href="https://hyoungmin.notion.site/148ffdf1a5fe480b865ff6a0de802444">Resume</a>
+            <a href={ROUTES.NOTION} target="_blank">
+              Resume
+            </a>
           </div>
         </div>
       </motion.div>
