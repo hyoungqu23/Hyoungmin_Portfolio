@@ -2,8 +2,11 @@ import { StaticImageData } from 'next/image';
 import Project_MiniLog from 'public/images/Project_MiniLog.png';
 import Project_Portfolio from 'public/images/Project_Portfolio.png';
 import Project_Router from 'public/images/Project_Router.png';
+import Project_Search from 'public/images/Project_Search.png';
 import Project_Admin from 'public/images/Project_Admin.png';
 import Project_Comments from 'public/images/Project_Comments.png';
+import Project_IssueViewer from 'public/images/Project_IssueViewer.png';
+import Project_MovieTrailer from 'public/images/Project_MovieTrailer.png';
 import Project_StoreRenewal from 'public/images/Project_StoreRenewal.png';
 import Project_CFD from 'public/images/Project_CFD.jpg';
 import Project_Collectors from 'public/images/Project_Collectors.png';
@@ -94,7 +97,7 @@ const projects: Projects[] = [
       '기획부터 배포까지 혼자 진행하면서 TypeScript, Tailwind CSS 등 새로운 기술을 학습할 수 있는 좋은 경험이었습니다. 다른 개발자들의 피드백을 바탕으로 지속적으로 개선하고 있습니다. 자세한 회고와 트러블슈팅은 아래 링크에서 보실 수 있습니다.',
   },
   {
-    title: 'SPA Router',
+    title: 'SPA Router 개발 프로젝트',
     stack: ['JavaScript', 'React', 'Context API'],
     period: '2022.10.06 - 2022.10.07',
     type: '개인 프로젝트 / 프론트엔드',
@@ -114,7 +117,33 @@ const projects: Projects[] = [
       '손쉽게 사용했던 라이브러리를 직접 구현하면서 라우팅 기능에 대해 더 깊게 이해할 수 있는 좋은 경험이었습니다. 추가적으로 다른 Hooks나 기능에 대해 비슷한 프로젝트를 진행하고자 합니다. 자세한 회고와 트러블슈팅은 아래 링크에서 보실 수 있습니다.',
   },
   {
-    title: '투자 관리 서비스 Admin',
+    title: '검색 기능 개발 프로젝트',
+    stack: ['JavaScript', 'React', 'Axios', 'Git'],
+    period: '2022.10.06 - 2022.10.07',
+    type: '팀 프로젝트 / 프론트엔드',
+    imgUrl: Project_Search,
+    url: {
+      githubUrl:
+        'https://github.com/wanted-pre-onboarding-fe-6th-team2/pre-onboarding-assignment-week-5-1-team-2',
+      retroUrl: 'https://minilog.vercel.app/blog/preonboarding-assignment-unknown',
+    },
+    descriptions: [
+      {
+        tag: 'feature',
+        content:
+          '확장성과 재사용성을 고려해 Axios 인스턴스를 생성하는 방식으로 구현하며, interceptor를 활용해 과제 요구 사항을 쉽게 충했습니다.',
+      },
+      {
+        tag: 'feature',
+        content:
+          '단순 keyword를 인자로 받아 API 호출을 하도록 처리했으나, 코드 리뷰 결과 확장성을 고려해 객체 형태로 인자의 데이터 타입을 변경했습니다.',
+      },
+    ],
+    retrospective:
+      'Axios 인스턴스를 활용해 재사용성과 확장성을 높일 수 있는 코드를 구현하고자 했으며, 코드 리뷰와 피드백을 통해 Best Practice를 산출하고자 고민했습니다. 자세한 회고와 트러블슈팅은 아래 링크에서 보실 수 있습니다.',
+  },
+  {
+    title: '투자 관리 서비스 Admin 개발 프로젝트',
     stack: ['JavaScript', 'React', 'Redux', 'Chakra UI', 'Git'],
     period: '2022.09.20 - 2022.09.25',
     type: '팀 프로젝트 / 프론트엔드',
@@ -140,7 +169,7 @@ const projects: Projects[] = [
       '로그인 validation, 로그인 상태에 따른 페이지 라우팅 등의 로그인 기능을 구현하면서 인증/인가에 대해 이해할 수 있었고, 어떻게 하면 UX를 향상시킬 수 있을 지에 대해 고민하면서 기본적인 상세 페이지 UI를 구현했습니다. 자세한 회고와 트러블슈팅은 아래 링크에서 보실 수 있습니다.',
   },
   {
-    title: '댓글 기능 프로젝트',
+    title: '댓글 기능 개발 프로젝트',
     stack: ['JavaScript', 'React', 'Redux', 'Redux-Toolkit', 'Git'],
     period: '2022.09.16 - 2022.09.19',
     type: '팀 프로젝트 / 프론트엔드',
@@ -164,6 +193,50 @@ const projects: Projects[] = [
     ],
     retrospective:
       '단순 강의나 공식 문서를 보면서 배우는 것보다 어느 정도 개념을 알게 되면 직접 코드를 작성해 보는 것의 중요성을 느낀 프로젝트입니다. 페어 프로그래밍 방식으로 진행하면서 Ducks Pattern 도입 여부와 Refactoring에 대해 고민하면서 Redux를 조금 더 이해할 수 있는 좋은 경험이었습니다. 자세한 회고와 트러블슈팅은 아래 링크에서 보실 수 있습니다.',
+  },
+  {
+    title: 'GitHub 이슈 확인 페이지 개발 프로젝트',
+    stack: ['JavaScript', 'React', 'Emotion', 'Material UI', 'Context API', 'Git'],
+    period: '2022.09.13 - 2022.09.15',
+    type: '팀 프로젝트 / 프론트엔드',
+    imgUrl: Project_IssueViewer,
+    url: {
+      pageUrl: 'https://github-issue-viewer-team2.netlify.app/',
+      githubUrl:
+        'https://github.com/wanted-pre-onboarding-fe-6th-team2/pre-onboarding-assignment-week-3-1-team-2',
+      retroUrl: 'https://minilog.vercel.app/blog/preonboarding-assignment-thingsflow',
+    },
+    descriptions: [
+      {
+        tag: 'feature',
+        content:
+          'DOM의 Scroll Event를 활용하면 최적화가 필요하고, 추후 기능을 추가할 때 이슈가 생길 가능성이 있어 성능적으로 좋지 않을 수 있으므로, Intersection Observer를 활용하여 무한 스크롤을 구현했습니다.',
+      },
+    ],
+    retrospective:
+      '공통 컴포넌트를 분리하여 통일성 있는 UI를 구현하고, 직접 무한 스크롤을 구현하면서 해당 로직에 대해 더 이해할 수 있는 좋은 경험을 했습니다. 자세한 회고와 트러블슈팅은 아래 링크에서 보실 수 있습니다.',
+  },
+  {
+    title: '영화 트레일러 사이트 개발 프로젝트',
+    stack: ['JavaScript', 'React', 'Emotion', 'SWR', 'Git'],
+    period: '2022.09.06 - 2022.09.08',
+    type: '팀 프로젝트 / 프론트엔드',
+    imgUrl: Project_MovieTrailer,
+    url: {
+      pageUrl: 'https://wanted-movie-trailer.netlify.app/',
+      githubUrl:
+        'https://github.com/wanted-pre-onboarding-fe-6th-team2/pre-onboarding-assignment-week-1-2-team-2',
+      retroUrl: 'https://minilog.vercel.app/blog/preonboarding-assignment-imlab',
+    },
+    descriptions: [
+      {
+        tag: 'feature',
+        content:
+          '캐싱된 데이터를 가져와 UI를 구현하고, Query Parameter를 활용해 검색 요청을 하도록 구현했습니다.',
+      },
+    ],
+    retrospective:
+      '검색 과정에서 초기값 이슈를 해결하기 위해 다양한 방법을 고민했고 팀원이 작성한 로직의 문제점을 서로 피드백하며 수정하며 Best Practice를 만들기 위해 노력했습니다. 자세한 회고와 트러블슈팅은 아래 링크에서 보실 수 있습니다.',
   },
   {
     title: '온라인 스토어 리뉴얼 프로젝트',
