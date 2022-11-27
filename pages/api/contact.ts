@@ -4,11 +4,11 @@ export default function (req: NextApiRequest, res: NextApiResponse) {
   let nodemailer = require('nodemailer');
 
   const transporter = nodemailer.createTransport({
-    port: 465,
-    host: 'smtp.gmail.com',
+    port: process.env.SMTP_PORT,
+    host: process.env.SMTP_HOST,
     auth: {
-      user: 'contact.portfolio23@gmail.com',
-      pass: 'qocaznhrmwfrnmor',
+      user: process.env.SMTP_USERNAME,
+      pass: process.env.SMTP_PASSWORD,
     },
     secure: true,
   });
