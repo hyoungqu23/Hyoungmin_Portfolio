@@ -29,11 +29,12 @@ const Contact = () => {
       .then(res => {
         console.log('Response received');
         if (res.status === 200) {
-          console.log('Response succeeded!');
+          alert('이메일이 전송되었습니다.');
         }
       })
       .catch(error => {
         console.log('이메일 전송에 실패했습니다.', error);
+        alert('이메일 전송에 실패했습니다.');
       });
   };
 
