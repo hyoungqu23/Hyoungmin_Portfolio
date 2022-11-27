@@ -32,10 +32,13 @@ const Header = () => {
             <Link href={ROUTES.PROJECTS}>프로젝트</Link>
           </li>
           <li onClick={() => setToggleMenu(!toggleMenu)}>
-            <Link href={ROUTES.EXPERIENCE}>경험/교육</Link>
+            <Link href={ROUTES.EXPERIENCE}>경험</Link>
           </li>
           <li onClick={() => setToggleMenu(!toggleMenu)}>
             <Link href={ROUTES.MORE}>더 알아보기</Link>
+          </li>
+          <li onClick={() => setToggleMenu(!toggleMenu)}>
+            <Link href={ROUTES.CONTACT}>CONTACT</Link>
           </li>
         </ul>
       </nav>
