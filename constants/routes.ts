@@ -4,6 +4,7 @@ interface Routes {
   PROJECTS: string;
   EXPERIENCE: string;
   MORE: string;
+  CONTACT: string;
   GITHUB: string;
   KAKAO: string;
   BLOG: string;
@@ -18,6 +19,7 @@ export const ROUTES: Routes = {
   PROJECTS: '#projects',
   EXPERIENCE: '#experience',
   MORE: '#more',
+  CONTACT: '/contact',
   GITHUB: 'https://github.com/hyoungqu23',
   KAKAO: 'https://open.kakao.com/o/szcSNlHe',
   BLOG: 'https://minilog.vercel.app/',
