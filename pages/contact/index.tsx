@@ -17,7 +17,25 @@ const Contact = () => {
     formState: { errors },
   } = useForm<Inputs>();
 
-  const onSubmit: SubmitHandler<Inputs> = data => console.log('data', data);
+  const onSubmit: SubmitHandler<Inputs> = data => {
+    fetch('/api/contact', {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json, text/plain, */*',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })
+      .then(res => {
+        console.log('Response received');
+        if (res.status === 200) {
+          console.log('Response succeeded!');
+        }
+      })
+      .catch(error => {
+        console.log('이메일 전송에 실패했습니다.', error);
+      });
+  };
 
   return (
     <main className="relative w-11/12 h-[calc(90vh-50px)] mx-auto md:w-4/5">
